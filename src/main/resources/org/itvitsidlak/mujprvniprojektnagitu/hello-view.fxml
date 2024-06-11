@@ -16,7 +16,7 @@
       <Circle fx:id="kolo2" layoutX="364.0" layoutY="269.0" radius="28.0" stroke="BLACK" strokeType="INSIDE" />
       <Rectangle fx:id="okno1" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="20.0" layoutX="188.0" layoutY="199.0" stroke="BLACK" strokeType="INSIDE" width="56.0" />
       <Rectangle fx:id="okno2" arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="20.0" layoutX="280.0" layoutY="198.0" stroke="BLACK" strokeType="INSIDE" width="56.0" />
-      <ColorPicker layoutX="206.0" layoutY="329.0">
+      <ColorPicker fx:id="color" layoutX="206.0" layoutY="329.0" onAction="#changeColor">
          <value>
             <Color red="0.11764705926179886" green="0.5647059082984924" blue="1.0" />
          </value>
